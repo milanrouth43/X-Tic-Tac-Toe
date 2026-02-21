@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (roundWon) {
             statusText.innerText = `Player ${currentPlayer} Wins! 🎉`;
-            // Apply the new solid colors on win
+            
             statusText.style.color = currentPlayer === "X" ? "#ff6b6b" : "#48dbfb";
             gameActive = false;
             return;
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
         gameActive = true;
         
         statusText.innerText = "Player X's Turn";
-        statusText.style.color = "#000"; // Reset text color to black
+        statusText.style.color = "#000"; 
 
         cells.forEach(cell => {
             cell.innerText = "";
