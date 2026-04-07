@@ -1,0 +1,12 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.plan
+
+# Terraform lock (optional)
+.terraform.lock.hcl
+
+# OS
+.DS_Store
