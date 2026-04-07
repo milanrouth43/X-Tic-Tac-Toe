@@ -12,3 +12,4 @@ nano variables.tf
 nano terraform.tfvars
 terraform init
 terraform plan
+clear
